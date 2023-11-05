@@ -371,9 +371,10 @@ int main()
 
 
 
-		// The algorithm has also been reading up on Godel's Incompleteness Theorem. 
-		// It now must verify that math derived from the Peano Axioms holds, else it will feel uneasy about the fabric of reality. 
-		// At the very least, this small subset of math is complete. 
+		// The algorithm has also been reading up on Godel's Incompleteness
+		// Theorem. It now must verify that math derived from the Peano
+		// Axioms holds, else it will feel uneasy about the fabric of
+		// reality. At the very least, this small subset of math is complete. 
 		r = rand() % 1000;
 		if(r == 0)
 		{
@@ -398,19 +399,19 @@ int main()
 			int q1 = rand() % 20 + 5;
 			if(q1 == 21)
 			{
-				printf("Quick! What is the %dst Fibonnaci number: ", q1);
+				printf("Quick! What is the %dst Fibonacci number: ", q1);
 			}
 			else if(q1 == 22)
 			{
-				printf("Quick! What is the %dnd Fibonnaci number: ", q1);
+				printf("Quick! What is the %dnd Fibonacci number: ", q1);
 			}
 			else if(q1 == 23)
 			{
-				printf("Quick! What is the %drd Fibonnaci number: ", q1);
+				printf("Quick! What is the %drd Fibonacci number: ", q1);
 			}
 			else
 			{
-				printf("Quick! What is the %dth Fibonnaci number: ", q1);
+				printf("Quick! What is the %dth Fibonacci number: ", q1);
 			}
 			
 
